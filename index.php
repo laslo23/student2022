@@ -56,7 +56,7 @@ echo '<br/>';
 
 if(0 === false)
 {
-   echo 'правда';
+    echo 'правда';
 }else{
     //Pravda
     echo 'не правда';
@@ -93,11 +93,6 @@ echo '<br/>';
 function foo($strint){
     return mb_convert_case($strint, MB_CASE_TITLE, "UTF-8");
 }
-
-
-
-
-
 
 
 
